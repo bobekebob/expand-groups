@@ -33,7 +33,6 @@ public class ExpandStringGroups
             }
             stack.add(input.charAt(i));
         }
-        stackToString(stack);
         groups.add(stackToString(stack));
         return groups;
     }
